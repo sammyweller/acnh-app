@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+    <title>Animal Crossing Villagers</title>
+</head>
+
+
+<body>
+    <div class="intro-section">
+        <div class ="search-area">
+            <h1 class="search-instructions">Search for your favorite villager to learn more about them!</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for villagers...">
+            </div>
+        </div> <!--closing search-area div-->
+        <div class ="search-image">
+            <img src="./img/isabelle.png" class="isabelle" alt="A picture of Isabelle from Animal Crossing New Horizons">
+        </div> <!--closing search image-->
+    </div> <!--closing intro section-->
+
+    
+    <ul class="villager-list"></ul>
+
+    <div id="modalContainer"></div>
+
+    <img src="./img/twins.png" class="twins" alt="A picture of Timmy and Tommy from Animal Crossing New Horizons">
+    
+
+    <script src="js/promise-polyfill.js"></script>
+    <script src="js/fetch-polyfill.js"></script>
+    <!--script goes last-->
+    <script src="./dist/min.scripts.js"></script>
+</body>
+
+</html>

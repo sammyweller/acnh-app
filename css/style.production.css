@@ -1,0 +1,312 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html {
+    background-color: #e0eccc;
+    background-image: url('../img/bg.png');
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  body {
+    color: #0D2933;
+    margin: 0 50px;
+    padding: 0 50px;
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  
+  .intro-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 100px 0;
+  }
+  
+  .search-area {
+    max-width: 800px;
+  }
+  
+  .search-instructions {
+    font-size: 3em;
+    padding-right: 20px;
+    color: #0D2933;
+  }
+  
+  
+  .search-container {
+    margin: 20px 0 40px 0;
+  }
+  
+  #searchInput {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    color: #0D2933;
+    background-color: #F7F5E5;
+    font-family: 'Quicksand', sans-serif;
+  
+  }
+  
+  
+  .isabelle {
+    padding-top: 10px;
+    max-height: 280px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    /* Add this line to remove the default margin */
+    padding: 0;
+    /* Add this line to remove any default padding */
+  
+  }
+  
+  
+  .villager-list {
+    list-style-type: none;
+    /* grid fallback */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    /* - */
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 40px 1fr 40px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .villagerButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #FFF99D;
+    -webkit-box-shadow: 4px 4px 0px #0D2933;
+            box-shadow: 4px 4px 0px #0D2933;
+    border: 2px solid;
+    color: #0D2933;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  .villagerButton:hover,
+  .villagerButton:active,
+  .villagerButton:visited {
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+    cursor: pointer;
+  }
+  
+  
+  /* Modal: */
+  
+  .modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #F7F5E5;
+    padding: 0 20px;
+    border-radius: 80px;
+  }
+  
+  .modal-open {
+    overflow: hidden;
+  }
+  
+  .modal-content img {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  
+  .close-button {
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #FFF99D;
+    -webkit-box-shadow: 2px 2px 0px #0D2933;
+            box-shadow: 2px 2px 0px #0D2933;
+    border: 2px solid;
+    color: #0D2933;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  
+  /* End of modal */
+  
+  .twins {
+    max-width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  
+  
+  /* Begin responsive design */
+  
+  
+  @media all and (max-width: 1200px) {
+  
+    .twins {
+      min-width: 250px;
+    }
+  
+  }
+  
+  
+  @media all and (max-width: 835px) {
+  
+    .intro-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .isabelle {
+      padding: 40px 0 20px 0;
+    }
+  
+    .search-instructions {
+      font-size: 37px;
+      padding-right: 0;
+    }
+  
+  }
+  
+  
+  
+  
+  @media all and (max-width: 720px) {
+  
+    body {
+      margin: 0 30px;
+      padding: 0;
+    }
+  
+    .intro-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+  
+    .search-area {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+    }
+  
+    .isabelle {
+      max-width: 130px;
+    }
+  
+    .villager-list {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+  
+    .search-instructions {
+      font-size: 23px;
+      margin-bottom: 0;
+    }
+  
+    .search-container {
+      padding-top: 40px;
+      margin-bottom: 0;
+    }
+  
+    .search-container input[type="text"] {
+      max-width: 200px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+  }
+  
+  /* Galaxy Fold: */
+  @media all and (max-width: 285px) {
+    .modal-content img {
+      max-width: 100px;
+    }
+  }
