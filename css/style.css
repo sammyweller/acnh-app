@@ -18,11 +18,19 @@ body {
   margin: auto;
 }
 
+.logo {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
 
 .intro-section {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  margin: 40px 0 100px 0;
 }
 
 .search-area {
@@ -181,6 +189,10 @@ ul {
 
 @media all and (max-width: 835px) {
 
+
+  .logo {
+    max-width: 100px;
+  }
   .intro-section {
     display: flex;
     flex-direction: column-reverse;
@@ -210,6 +222,7 @@ ul {
     margin: 0 30px;
     padding: 0;
   }
+
 
   .intro-section {
     display: flex;

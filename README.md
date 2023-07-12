@@ -17,13 +17,13 @@ https://acnhapi.com/v1/villagers/
 ## Images of app: 
 
 ### Full desktop view of the app: 
-![Full desktop view of the app:](./img/desktop-view.png)
+![Full desktop view of the app:](./img/ac-desktop.png)
 
 ### View of modal on desktop: 
-![View of modal on desktop:](./img/desktop-modal.png)
+![View of modal on desktop:](./img/ac-desktop--modal.png)
 
 ### Mobile version of the app: 
-![Mobile version of the app:](./img/mobile-view.png)
+![Mobile version of the app:](./img/ac-mobile.png)
 
 ### Modal on mobile: 
-![Modal on mobile:](./img/mobile-modal.png)
+![Modal on mobile:](./img/ac-mobile--modal.png)
