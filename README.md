@@ -9,7 +9,7 @@ The project also includes a search bar to look for your favorite villagers.
 HTML, CSS, Javascript
 
 ## Link to the app: 
-
+https://sammyweller.github.io/acnh-app/
 
 ## API: 
 https://acnhapi.com/v1/villagers/
